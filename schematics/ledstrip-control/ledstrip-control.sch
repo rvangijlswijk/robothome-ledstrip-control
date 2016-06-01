@@ -4618,7 +4618,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="100nF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="BTN" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10k"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4657,7 +4657,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <instance part="GND4" gate="1" x="93.98" y="58.42" rot="R90"/>
 <instance part="C1" gate="G$1" x="53.34" y="137.16"/>
 <instance part="GND9" gate="1" x="53.34" y="127"/>
-<instance part="J3" gate="G$1" x="218.44" y="154.94" rot="R180"/>
+<instance part="BTN" gate="G$1" x="218.44" y="154.94" rot="R180"/>
 <instance part="R4" gate="G$1" x="208.28" y="142.24" rot="R270"/>
 <instance part="GND10" gate="1" x="208.28" y="132.08"/>
 <instance part="GND11" gate="1" x="48.26" y="127"/>
@@ -4683,7 +4683,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <label x="96.52" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="BTN" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="154.94" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 <label x="205.74" y="157.48" size="1.778" layer="95" rot="R90"/>
@@ -4831,7 +4831,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="BTN" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="152.4" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
 <junction x="208.28" y="152.4"/>
 <wire x1="208.28" y1="152.4" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
